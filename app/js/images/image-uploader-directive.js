@@ -23,8 +23,8 @@ app.directive(
 				// the drag-n-drop, which isn't available in Flash.
 				runtimes: "html5",
 
-				// Upload the image to the API.
-				url: "api/index.cfm?action=upload",
+				// The actual POST URL will be provided in the BeforeUpload event.
+				url: "about:blank",
 
 				// Set the name of file field (that contains the upload).
 				file_data_name: "file",
